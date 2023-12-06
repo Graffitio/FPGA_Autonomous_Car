@@ -1,0 +1,69 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xadc_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/Clock_Library_.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_usec_en
+INFO: [VRFC 10-311] analyzing module clock_usec
+INFO: [VRFC 10-311] analyzing module clock_min
+INFO: [VRFC 10-311] analyzing module clock_div_1000
+INFO: [VRFC 10-311] analyzing module clock_hour
+INFO: [VRFC 10-311] analyzing module counter_dec_60
+INFO: [VRFC 10-311] analyzing module loadable_down_counter_dec_60
+INFO: [VRFC 10-311] analyzing module counter_dec_60_pul
+INFO: [VRFC 10-311] analyzing module loadable_up_counter_dec_60
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/FND_4digit_cntr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FND_4digit_cntr
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/PWM_100x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PWM_100
+INFO: [VRFC 10-311] analyzing module PWM_1000
+INFO: [VRFC 10-2458] undeclared symbol rst, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/PWM_100x.v:106]
+INFO: [VRFC 10-311] analyzing module PWM_100_song
+INFO: [VRFC 10-311] analyzing module PWM_1000_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/UltraSonic_Profsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UltraSonic_Car
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam01_combinational_Logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and2_gate
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module half_adder_dataflow
+INFO: [VRFC 10-311] analyzing module half_adder_behaviaral
+INFO: [VRFC 10-311] analyzing module full_adder_structure
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module full_4bit_s
+INFO: [VRFC 10-311] analyzing module full_4bit
+INFO: [VRFC 10-311] analyzing module fadd_sub_4bit_s
+INFO: [VRFC 10-311] analyzing module fadd_sub_4bit_d
+INFO: [VRFC 10-311] analyzing module comparator_s
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-311] analyzing module decoder_2_4_b
+INFO: [VRFC 10-311] analyzing module decoder_2_4_d
+INFO: [VRFC 10-311] analyzing module decoder_2_4_en_d
+INFO: [VRFC 10-311] analyzing module decoder_2_4_en_b
+INFO: [VRFC 10-311] analyzing module decoder_2_4_en_b2
+INFO: [VRFC 10-311] analyzing module decoder_3_8
+INFO: [VRFC 10-311] analyzing module decoder_7seg
+INFO: [VRFC 10-311] analyzing module fnd_test_top
+INFO: [VRFC 10-311] analyzing module encoder_4_2
+INFO: [VRFC 10-311] analyzing module mux_2_1_s
+INFO: [VRFC 10-311] analyzing module mux_2_1_d
+INFO: [VRFC 10-311] analyzing module mux_4_1_d
+INFO: [VRFC 10-311] analyzing module mux_8_1_d
+INFO: [VRFC 10-311] analyzing module demux_1_4
+INFO: [VRFC 10-311] analyzing module mux_test_top
+INFO: [VRFC 10-311] analyzing module bin_to_dec
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/fan_bluetooth_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bluetooth_rx
+INFO: [VRFC 10-311] analyzing module Car_bluetooth_top
+INFO: [VRFC 10-2458] undeclared symbol start, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/fan_bluetooth_top.v:157]
+INFO: [VRFC 10-2458] undeclared symbol start_nedge, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/fan_bluetooth_top.v:159]
+INFO: [VRFC 10-311] analyzing module bluetooth_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Autonomous_Car_Top
+INFO: [VRFC 10-2458] undeclared symbol rst, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:70]
+INFO: [VRFC 10-2458] undeclared symbol start, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:93]
+INFO: [VRFC 10-2458] undeclared symbol start_nedge, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:96]
+INFO: [VRFC 10-2458] undeclared symbol duty_low, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:387]
+INFO: [VRFC 10-2458] undeclared symbol duty_high, assumed default net type wire [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:388]
+WARNING: [VRFC 10-2938] 'duty_low' is already implicitly declared on line 387 [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:392]
+INFO: [VRFC 10-311] analyzing module Auto_drive
+INFO: [VRFC 10-311] analyzing module Manual_drive
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'duty_reg_L' is not allowed [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v:510]
+INFO: [VRFC 10-311] analyzing module adc_ch6_top

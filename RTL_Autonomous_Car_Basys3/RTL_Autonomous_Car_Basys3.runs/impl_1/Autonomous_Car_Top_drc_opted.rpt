@@ -1,0 +1,54 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed Dec  6 17:09:26 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : report_drc -file Autonomous_Car_Top_drc_opted.rpt -pb Autonomous_Car_Top_drc_opted.pb -rpx Autonomous_Car_Top_drc_opted.rpx
+| Design       : Autonomous_Car_Top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 3
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 3          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT ultra_car_L/usec_clk/edg/distance_cm[11]_i_2 is driving clock pin of 12 cells. This could lead to large hold time violations. Involved cells are:
+ultra_car_L/distance_cm_reg[0], ultra_car_L/distance_cm_reg[10], ultra_car_L/distance_cm_reg[11], ultra_car_L/distance_cm_reg[1], ultra_car_L/distance_cm_reg[2], ultra_car_L/distance_cm_reg[3], ultra_car_L/distance_cm_reg[4], ultra_car_L/distance_cm_reg[5], ultra_car_L/distance_cm_reg[6], ultra_car_L/distance_cm_reg[7], ultra_car_L/distance_cm_reg[8], ultra_car_L/distance_cm_reg[9]
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT ultra_car_M/usec_clk/edg/distance_cm[11]_i_2__0 is driving clock pin of 12 cells. This could lead to large hold time violations. Involved cells are:
+ultra_car_M/distance_cm_reg[0], ultra_car_M/distance_cm_reg[10], ultra_car_M/distance_cm_reg[11], ultra_car_M/distance_cm_reg[1], ultra_car_M/distance_cm_reg[2], ultra_car_M/distance_cm_reg[3], ultra_car_M/distance_cm_reg[4], ultra_car_M/distance_cm_reg[5], ultra_car_M/distance_cm_reg[6], ultra_car_M/distance_cm_reg[7], ultra_car_M/distance_cm_reg[8], ultra_car_M/distance_cm_reg[9]
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT ultra_car_R/usec_clk/edg/distance_cm[11]_i_2__1 is driving clock pin of 12 cells. This could lead to large hold time violations. Involved cells are:
+ultra_car_R/distance_cm_reg[0], ultra_car_R/distance_cm_reg[10], ultra_car_R/distance_cm_reg[11], ultra_car_R/distance_cm_reg[1], ultra_car_R/distance_cm_reg[2], ultra_car_R/distance_cm_reg[3], ultra_car_R/distance_cm_reg[4], ultra_car_R/distance_cm_reg[5], ultra_car_R/distance_cm_reg[6], ultra_car_R/distance_cm_reg[7], ultra_car_R/distance_cm_reg[8], ultra_car_R/distance_cm_reg[9]
+Related violations: <none>
+
+
