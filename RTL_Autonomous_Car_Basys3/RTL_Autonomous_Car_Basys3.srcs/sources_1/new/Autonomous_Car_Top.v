@@ -215,53 +215,53 @@ module Autonomous_Car_Top(
                     blue_back_left = 0;
                     blue_back_right = 0;                    
                 end
-                else if(distance_cm_M >= 33) begin
-                    if((distance_cm_L > 16) && (distance_cm_R > 16)) begin
+                else if(distance_cm_M >= 36) begin
+                    if((distance_cm_L > 26) && (distance_cm_R > 26)) begin
                         in1 = 1; in2 = 0; in3 = 1; in4 = 0; // Forward
 //                        test_led[0] = 1;
 //                        test_led[1] = 0;
 //                        test_led[2] = 0;                             
-                        duty_reg_L = 350;
-                        duty_reg_R = 350;
+                        duty_reg_L = 600;
+                        duty_reg_R = 600;
                         red_back = 0;
                         blue_back_left = 0;
                         blue_back_right = 0;                        
                     end
-                    else if(distance_cm_L < 24) begin
+                    else if(distance_cm_L < 26) begin
                         in1 = 1; in2 = 1; in3 = 1; in4 = 1; // Bresk
                         in1 = 1; in2 = 0; in3 = 1; in4 = 0; // Forward
-                        duty_reg_L = 850;
-                        duty_reg_R = 150;
+                        duty_reg_L = 900;
+                        duty_reg_R = 80;
                         red_back = 0;
                         blue_back_left = 0;
                         blue_back_right = 1;                        
                         
                     end
-                    else if (distance_cm_R < 24) begin
+                    else if (distance_cm_R < 26) begin
                         in1 = 1; in2 = 1; in3 = 1; in4 = 1; // Bresk
                         in1 = 1; in2 = 0; in3 = 1; in4 = 0; // Forward                      
-                        duty_reg_L = 150;
-                        duty_reg_R = 850;
+                        duty_reg_L = 80;
+                        duty_reg_R = 900;
                         red_back = 0;
                         blue_back_left = 1;
                         blue_back_right = 0;                        
                     end
                 end
-                else if(distance_cm_M < 33) begin
+                else if(distance_cm_M < 36) begin
 //                else begin
                     in1 = 1; in2 = 1; in3 = 1; in4 = 1; // Bresk
                     if(distance_cm_L > distance_cm_R) begin
                         in1 = 1; in2 = 0; in3 = 0; in4 = 1; // Right    
-                        duty_reg_L = 500;
-                        duty_reg_R = 500;
+                        duty_reg_L = 470;
+                        duty_reg_R = 470;
                         red_back = 0;
                         blue_back_left = 0;
                         blue_back_right = 1;                                            
                     end
                     else if(distance_cm_L < distance_cm_R) begin
                         in1 = 0; in2 = 1; in3 = 1; in4 = 0; // Left                            
-                        duty_reg_L = 500;
-                        duty_reg_R = 500;
+                        duty_reg_L = 470;
+                        duty_reg_R = 470;
                         red_back = 0;
                         blue_back_left = 1;
                         blue_back_right = 0;                                        
@@ -300,16 +300,16 @@ module Autonomous_Car_Top(
                     end
                     else if(Rx_Byte == 8'd50) begin
                         in1 = 0; in2 = 1; in3 = 1; in4 = 0; // Left
-                        duty_reg_L = 500;
-                        duty_reg_R = 500;
+                        duty_reg_L = 400;
+                        duty_reg_R = 400;
                         red_back = 0;
                         blue_back_left = 1;
                         blue_back_right = 0;                 
                     end
                     else if(Rx_Byte == 8'd51) begin
                         in1 = 1; in2 = 0; in3 = 0; in4 = 1; // Right
-                        duty_reg_L = 500;
-                        duty_reg_R = 500;
+                        duty_reg_L = 400;
+                        duty_reg_R = 400;
                         red_back = 0;
                         blue_back_left = 0;
                         blue_back_right = 1;                

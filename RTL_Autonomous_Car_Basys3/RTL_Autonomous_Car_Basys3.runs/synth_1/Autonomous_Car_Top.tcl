@@ -19,8 +19,6 @@ proc create_report { reportName command } {
 }
 set_param chipscope.maxJobs 3
 set_param xicom.use_bs_reader 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -41,7 +39,7 @@ read_verilog -library xil_defaultlib {
   F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/UltraSonic_Profsr.v
   F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam01_combinational_Logic.v
   F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v
-  F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/fan_bluetooth_top.v
+  F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/imports/new/fan_bluetooth_top.v
   F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/Autonomous_Car_Top.v
 }
 read_ip -quiet F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
