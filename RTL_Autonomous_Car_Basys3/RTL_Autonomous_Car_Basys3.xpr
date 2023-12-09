@@ -76,6 +76,41 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/Car_Drive_Control.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Car_adc_ch6_top.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Car_bluetooth_rx.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Car_clockgating_light.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Car_light_cntr_top.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PPRDIR/../Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/Clock_Library_.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -118,17 +153,18 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/fan_bluetooth_top.v">
+      <File Path="$PSRCDIR/sources_1/new/Autonomous_Car_Top.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../Project/FPGA_Project_Autonomous_Car/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/fan_bluetooth_top.v"/>
-          <Attr Name="ImportTime" Val="1701845466"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/Autonomous_Car_Top.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/fan_bluetooth_top.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Project/FPGA_Project_Autonomous_Car/RTL_Autonomous_Car_Basys3/RTL_Autonomous_Car_Basys3.srcs/sources_1/new/fan_bluetooth_top.v"/>
+          <Attr Name="ImportTime" Val="1701845466"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

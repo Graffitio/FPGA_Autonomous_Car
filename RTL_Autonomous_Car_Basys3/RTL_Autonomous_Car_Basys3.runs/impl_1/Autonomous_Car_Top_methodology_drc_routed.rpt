@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu Dec  7 10:57:04 2023
+| Date         : Fri Dec  8 15:41:27 2023
 | Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Autonomous_Car_Top_methodology_drc_routed.rpt -pb Autonomous_Car_Top_methodology_drc_routed.pb -rpx Autonomous_Car_Top_methodology_drc_routed.rpx
 | Design       : Autonomous_Car_Top
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 78
+             Violations found: 71
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 40         |
-| TIMING-18 | Warning          | Missing input or output delay | 38         |
+| TIMING-18 | Warning          | Missing input or output delay | 31         |
 +-----------+------------------+-------------------------------+------------+
 
 2. REPORT DETAILS
@@ -375,50 +375,15 @@ Related violations: <none>
 
 TIMING-18#29 Warning
 Missing input or output delay  
-An output delay is missing on test_led[0] relative to clock(s) sys_clk_pin
+An output delay is missing on trig_1 relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#30 Warning
 Missing input or output delay  
-An output delay is missing on test_led[1] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#31 Warning
-Missing input or output delay  
-An output delay is missing on test_led[2] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#32 Warning
-Missing input or output delay  
-An output delay is missing on test_led[3] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#33 Warning
-Missing input or output delay  
-An output delay is missing on test_led[4] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#34 Warning
-Missing input or output delay  
-An output delay is missing on test_led[5] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#35 Warning
-Missing input or output delay  
-An output delay is missing on test_led[6] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#36 Warning
-Missing input or output delay  
-An output delay is missing on trig_1 relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#37 Warning
-Missing input or output delay  
 An output delay is missing on trig_2 relative to clock(s) sys_clk_pin
 Related violations: <none>
 
-TIMING-18#38 Warning
+TIMING-18#31 Warning
 Missing input or output delay  
 An output delay is missing on trig_3 relative to clock(s) sys_clk_pin
 Related violations: <none>
