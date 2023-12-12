@@ -1,0 +1,1148 @@
+
+*** Running vivado
+    with args -log mblaze_Autonomous_Car_SoC_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mblaze_Autonomous_Car_SoC_wrapper.tcl -notrace
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source mblaze_Autonomous_Car_SoC_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_Car_FND_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_Car_direction_wheel_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_Car_Light_cntr_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_Car_PWM_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_Car_UltraSonic_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.cache/ip 
+Command: link_design -top mblaze_Autonomous_Car_SoC_wrapper -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.255 . Memory (MB): peak = 819.074 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 837 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_clk_wiz_0_0/mblaze_Autonomous_Car_SoC_clk_wiz_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_clk_wiz_0_0/mblaze_Autonomous_Car_SoC_clk_wiz_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_clk_wiz_0_0/mblaze_Autonomous_Car_SoC_clk_wiz_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_clk_wiz_0_0/mblaze_Autonomous_Car_SoC_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_clk_wiz_0_0/mblaze_Autonomous_Car_SoC_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1508.555 ; gain = 543.516
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_clk_wiz_0_0/mblaze_Autonomous_Car_SoC_clk_wiz_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_0/mblaze_Autonomous_Car_SoC_microblaze_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_0/mblaze_Autonomous_Car_SoC_microblaze_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_dlmb_v10_0/mblaze_Autonomous_Car_SoC_dlmb_v10_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_dlmb_v10_0/mblaze_Autonomous_Car_SoC_dlmb_v10_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_ilmb_v10_0/mblaze_Autonomous_Car_SoC_ilmb_v10_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_ilmb_v10_0/mblaze_Autonomous_Car_SoC_ilmb_v10_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_mdm_1_0/mblaze_Autonomous_Car_SoC_mdm_1_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/mdm_1/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_mdm_1_0/mblaze_Autonomous_Car_SoC_mdm_1_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/mdm_1/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0/mblaze_Autonomous_Car_SoC_rst_clk_wiz_0_100M_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_0/mblaze_Autonomous_Car_SoC_axi_gpio_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_led/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_0/mblaze_Autonomous_Car_SoC_axi_gpio_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_led/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_0/mblaze_Autonomous_Car_SoC_axi_gpio_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_led/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_0/mblaze_Autonomous_Car_SoC_axi_gpio_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_led/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_1/mblaze_Autonomous_Car_SoC_axi_gpio_0_1_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_switch/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_1/mblaze_Autonomous_Car_SoC_axi_gpio_0_1_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_switch/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_1/mblaze_Autonomous_Car_SoC_axi_gpio_0_1.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_switch/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_gpio_0_1/mblaze_Autonomous_Car_SoC_axi_gpio_0_1.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_gpio_switch/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_uartlite_0/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0/mblaze_Autonomous_Car_SoC_axi_uartlite_0_0.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_uartlite_0/U0'
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_iic_0_0/mblaze_Autonomous_Car_SoC_axi_iic_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_iic_0/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_axi_iic_0_0/mblaze_Autonomous_Car_SoC_axi_iic_0_0_board.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/axi_iic_0/U0'
+Parsing XDC File [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc]
+Finished Parsing XDC File [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc]
+Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0/mblaze_Autonomous_Car_SoC_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mblaze_Autonomous_Car_SoC_i/microblaze_0_axi_intc/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'mblaze_Autonomous_Car_SoC_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.srcs/sources_1/bd/mblaze_Autonomous_Car_SoC/ip/mblaze_Autonomous_Car_SoC_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1508.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 243 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+17 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1508.555 ; gain = 976.309
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.723 . Memory (MB): peak = 1508.555 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 295eb68f6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.435 . Memory (MB): peak = 1516.648 ; gain = 8.094
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13781cb11
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.808 . Memory (MB): peak = 1708.973 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 235 cells and removed 334 cells
+INFO: [Opt 31-1021] In phase Retarget, 19 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 213b5df20
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.934 . Memory (MB): peak = 1708.973 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 17 cells and removed 66 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 20a8a32e0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1708.973 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 16 cells and removed 643 cells
+INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-1112] Starts optimizing BUFG(s) with a common MMCM/DPLL/XPLL driver.
+INFO: [Opt 31-1112] Starts optimizing BUFG(s) with a common driver.
+INFO: [Opt 31-1092] Phase BUFG optimization transformed 0 BUFG(s) to MBUFG(s).
+Phase 4 BUFG optimization | Checksum: 20a8a32e0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1708.973 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 20a8a32e0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1708.973 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1b336b036
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1708.973 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             235  |             334  |                                             19  |
+|  Constant propagation         |              17  |              66  |                                              1  |
+|  Sweep                        |              16  |             643  |                                              1  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              1  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1708.973 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1d3954248
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1708.973 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-34.497 | TNS=-1904.692 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 64
+Ending PowerOpt Patch Enables Task | Checksum: 1d3954248
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.159 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1d3954248
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 1874.992 ; gain = 166.020
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1d3954248
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1d3954248
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+47 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1874.992 ; gain = 366.438
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file mblaze_Autonomous_Car_SoC_wrapper_drc_opted.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_drc_opted.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_drc_opted.rpx
+Command: report_drc -file mblaze_Autonomous_Car_SoC_wrapper_drc_opted.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_drc_opted.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: e50a3b54
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-568] A LUT 'mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/inst_i_1' is driving clock pin of 13 registers. This could lead to large hold time violations. First few involved registers are:
+	mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[7] {FDRE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[5] {FDRE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[9] {FDRE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/duty_high_reg[9] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[8] {FDRE}
+WARNING: [Place 30-568] A LUT 'mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/usec_clk/edg/distance_cm[11]_i_2' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[2] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[1] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[3] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[11] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[10] {FDCE}
+WARNING: [Place 30-568] A LUT 'mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/usec_clk/edg/distance_cm[11]_i_2__1' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[0] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[10] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[11] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[5] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[9] {FDCE}
+WARNING: [Place 30-568] A LUT 'mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/usec_clk/edg/distance_cm[11]_i_2__0' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[10] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[11] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[0] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[3] {FDCE}
+	mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[2] {FDCE}
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11b32ef9d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.944 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 16dc94034
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 16dc94034
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 16dc94034
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 13ed9a381
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 2.2 Global Placement Core
+
+Phase 2.2.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1018] Found 352 candidate LUT instances to create LUTNM shape
+INFO: [Physopt 32-775] End 1 Pass. Optimized 154 nets or cells. Created 2 new cells, deleted 152 existing cells and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            2  |            152  |                   154  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            2  |            152  |                   154  |           0  |           7  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 226a89e88
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 2.2 Global Placement Core | Checksum: 1edb5d171
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 1edb5d171
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1b446e773
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 164a03c96
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 201c0d3ca
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1029d8e51
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 16efdcc55
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 10118dc2e
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 178aef909
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 15f3069f4
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1d7059767
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1d7059767
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 195e4a5ca
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 195e4a5ca
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:21 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-29.488. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 18521b3bb
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 18521b3bb
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 18521b3bb
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 18521b3bb
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 1d794369f
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1d794369f
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Ending Placer Task | Checksum: fc58cfc7
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+80 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:28 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.643 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file mblaze_Autonomous_Car_SoC_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file mblaze_Autonomous_Car_SoC_wrapper_utilization_placed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file mblaze_Autonomous_Car_SoC_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.558 | TNS=-1612.164 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1e60fd41a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.558 | TNS=-1612.164 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 1e60fd41a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.558 | TNS=-1612.164 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]. Replicated 3 times.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.539 | TNS=-1611.632 |
+INFO: [Physopt 32-81] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[10]. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.533 | TNS=-1611.464 |
+INFO: [Physopt 32-662] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN.  Did not re-place instance mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1_reg[11]_replica
+INFO: [Physopt 32-572] Net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[20]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[16]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[12]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[8]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[4]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[0]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt[0]_i_5__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_8__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_6__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__1_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__0_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_2__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_18__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_9__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__0_i_6__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_14__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_33__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_19__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_38__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.488 | TNS=-1610.204 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_38__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_34__0_n_4. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_39__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_55__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_26__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_55__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_47__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_58__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_14__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_39__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_64__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_91__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_15__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_40__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_73__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.326 | TNS=-1605.668 |
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_74__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.325 | TNS=-1605.640 |
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_48__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.322 | TNS=-1605.556 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_73__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_45__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_70__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[9]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_56__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.303 | TNS=-1605.024 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_48__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_50__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_75__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_102__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_38__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_83__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_80__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_106__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_39__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_84__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_128__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_28__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_73__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_118__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_158__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_37__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.303 | TNS=-1605.024 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_29__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_82__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.275 | TNS=-1604.240 |
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_81__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.275 | TNS=-1604.240 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_74__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_126__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_57__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_97__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_140__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[15]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_18__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_58__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_98__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_143__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_23__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_63__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_111__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_68__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_108__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_150__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__1_i_12__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__1_i_26__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_113__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-735] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_153__0_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.205 | TNS=-1602.280 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_154__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[19]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry_i_7__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[24]_i_1__0_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst/clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN.  Did not re-place instance mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1_reg[11]_replica
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt[0]_i_5__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_8__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_6__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_18__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_33__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_38__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_34__0_n_4. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_55__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_58__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_91__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_73__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_45__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[9]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_102__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_106__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_158__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_126__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_57__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_140__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[15]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_143__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_111__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_68__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_150__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_154__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[19]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry_i_7__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[24]_i_1__0_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst/clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.205 | TNS=-1602.280 |
+Phase 3 Critical Path Optimization | Checksum: 1e60fd41a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.205 | TNS=-1602.280 |
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN.  Did not re-place instance mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1_reg[11]_replica
+INFO: [Physopt 32-572] Net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[20]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[16]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[12]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[8]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[4]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[0]_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt[0]_i_5__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_8__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_6__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__1_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__0_i_1__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_2__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_18__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_9__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry__0_i_6__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_14__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_33__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_19__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_38__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_34__0_n_4. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_39__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_55__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_26__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_55__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_47__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_58__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_14__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_39__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_64__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_91__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_15__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_40__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_73__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_45__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_70__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[9]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_48__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_50__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_75__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_102__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_38__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_83__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_80__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_106__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_39__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_84__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_128__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_28__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_73__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_118__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_158__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_29__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_74__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_126__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_57__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_97__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_140__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[15]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_18__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_58__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_98__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_143__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_23__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_63__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_111__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_68__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_108__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_150__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__1_i_12__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__1_i_26__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_113__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_154__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[19]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry__1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry_i_7__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[24]_i_1__0_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst/clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN.  Did not re-place instance mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1_reg[11]_replica
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/slv_reg1[11]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt[0]_i_5__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_8__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_6__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_18__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_33__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_38__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_34__0_n_4. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_55__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2__1067_carry_i_58__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_91__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_73__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_45__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[9]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_102__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry_i_106__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_158__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_126__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_57__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_140__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[15]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_143__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_111__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_68__0_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_150__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt1_carry__0_i_154__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2[19]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt2_carry_i_7__0_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[24]_i_1__0_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mblaze_Autonomous_Car_SoC_i/clk_wiz_0/inst/clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-29.205 | TNS=-1602.280 |
+Phase 4 Critical Path Optimization | Checksum: 1e60fd41a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-29.205 | TNS=-1602.280 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.353  |          9.884  |            5  |              0  |                    11  |           0  |           2  |  00:00:02  |
+|  Total          |          0.353  |          9.884  |            5  |              0  |                    11  |           0  |           3  |  00:00:02  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1874.992 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 1e60fd41a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+419 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.650 . Memory (MB): peak = 1874.992 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 17c7dce3 ConstDB: 0 ShapeSum: 483e1cbc RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 1aac4db9c
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1875.637 ; gain = 0.645
+Post Restoration Checksum: NetGraph: e07d6f7a NumContArr: ca476c22 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 1aac4db9c
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1875.637 ; gain = 0.645
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 1aac4db9c
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1881.609 ; gain = 6.617
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 1aac4db9c
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1881.609 ; gain = 6.617
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 11690aaad
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1894.605 ; gain = 19.613
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-28.309| TNS=-1550.452| WHS=-0.147 | THS=-67.703|
+
+Phase 2 Router Initialization | Checksum: 1931e393b
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1924.039 ; gain = 49.047
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00510245 %
+  Global Horizontal Routing Utilization  = 0.00234253 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 7426
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 7419
+  Number of Partially Routed Nets     = 7
+  Number of Node Overlaps             = 7
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1e9d22f66
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1924.039 ; gain = 49.047
+INFO: [Route 35-580] Design has 7 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[26]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[22]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[18]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[14]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[10]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1123
+ Number of Nodes with overlaps = 126
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-35.042| TNS=-2320.134| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1deb4144b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1924.039 ; gain = 49.047
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 354
+ Number of Nodes with overlaps = 36
+ Number of Nodes with overlaps = 18
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-35.411| TNS=-2316.207| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: f0c9422b
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:29 . Memory (MB): peak = 1924.039 ; gain = 49.047
+Phase 4 Rip-up And Reroute | Checksum: f0c9422b
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:29 . Memory (MB): peak = 1924.039 ; gain = 49.047
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: f4c62229
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 1924.039 ; gain = 49.047
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-34.963| TNS=-2302.683| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1fe392b59
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:45 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1fe392b59
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:45 . Memory (MB): peak = 1980.180 ; gain = 105.188
+Phase 5 Delay and Skew Optimization | Checksum: 1fe392b59
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:45 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 14e64b625
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 1980.180 ; gain = 105.188
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-34.963| TNS=-2107.702| WHS=0.031  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1652b1218
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 1980.180 ; gain = 105.188
+Phase 6 Post Hold Fix | Checksum: 1652b1218
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.92992 %
+  Global Horizontal Routing Utilization  = 3.33199 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 54.0541%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 57.6577%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 67.6471%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 55.8824%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 1adeb1249
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1adeb1249
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:46 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1ba899d93
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-34.963| TNS=-2107.702| WHS=0.031  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1ba899d93
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 1980.180 ; gain = 105.188
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:47 . Memory (MB): peak = 1980.180 ; gain = 105.188
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+438 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:12 ; elapsed = 00:00:48 . Memory (MB): peak = 1980.180 ; gain = 105.188
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1980.180 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.835 . Memory (MB): peak = 1980.180 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file mblaze_Autonomous_Car_SoC_wrapper_drc_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_drc_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_drc_routed.rpx
+Command: report_drc -file mblaze_Autonomous_Car_SoC_wrapper_drc_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_drc_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/SoC_Autonomous_Car/SoC_Autonomous_Car.runs/impl_1/mblaze_Autonomous_Car_SoC_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file mblaze_Autonomous_Car_SoC_wrapper_power_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_power_summary_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_power_routed.rpx
+Command: report_power -file mblaze_Autonomous_Car_SoC_wrapper_power_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_power_summary_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+450 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file mblaze_Autonomous_Car_SoC_wrapper_route_status.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file mblaze_Autonomous_Car_SoC_wrapper_timing_summary_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_timing_summary_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file mblaze_Autonomous_Car_SoC_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file mblaze_Autonomous_Car_SoC_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file mblaze_Autonomous_Car_SoC_wrapper_bus_skew_routed.rpt -pb mblaze_Autonomous_Car_SoC_wrapper_bus_skew_routed.pb -rpx mblaze_Autonomous_Car_SoC_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force mblaze_Autonomous_Car_SoC_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-1] Input pipelining: DSP mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1 input mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1 input mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1 input mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1 input mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1 output mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1 multiplier stage mblaze_Autonomous_Car_SoC_i/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Data_Flow_I/mul_unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1/Using_FPGA.DSP48E1_I1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC PDRC-153] Gated clock check: Net mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/gated_clk is a gated clock net sourced by a combinational pin mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/inst_i_1/O, cell mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/inst_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/usec_clk/edg/clk_usec is a gated clock net sourced by a combinational pin mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/usec_clk/edg/distance_cm[11]_i_2/O, cell mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/usec_clk/edg/distance_cm[11]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/usec_clk/edg/clk_usec is a gated clock net sourced by a combinational pin mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/usec_clk/edg/distance_cm[11]_i_2__0/O, cell mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/usec_clk/edg/distance_cm[11]_i_2__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/usec_clk/edg/clk_usec is a gated clock net sourced by a combinational pin mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/usec_clk/edg/distance_cm[11]_i_2__1/O, cell mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/usec_clk/edg/distance_cm[11]_i_2__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/inst_i_1 is driving clock pin of 13 cells. This could lead to large hold time violations. Involved cells are:
+mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[10], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[11], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[3], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[4], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[5], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[6], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[7], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[8], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/adc_value_reg[9], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/duty_high_reg[9], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/duty_low_reg[9], mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/cp_in_cur_reg, and mblaze_Autonomous_Car_SoC_i/myip_Car_Light_cntr_0/inst/myip_Car_Light_cntr_v1_0_S00_AXI_inst/car_light_cntr_soc/car_adc_light/edg_eoc/cp_in_old_reg
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/usec_clk/edg/distance_cm[11]_i_2 is driving clock pin of 12 cells. This could lead to large hold time violations. Involved cells are:
+mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[0], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[10], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[11], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[1], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[2], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[3], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[4], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[5], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[6], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[7], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[8], and mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_L/distance_cm_reg[9]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/usec_clk/edg/distance_cm[11]_i_2__0 is driving clock pin of 12 cells. This could lead to large hold time violations. Involved cells are:
+mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[0], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[10], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[11], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[1], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[2], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[3], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[4], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[5], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[6], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[7], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[8], and mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_M/distance_cm_reg[9]
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/usec_clk/edg/distance_cm[11]_i_2__1 is driving clock pin of 12 cells. This could lead to large hold time violations. Involved cells are:
+mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[0], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[10], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[11], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[1], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[2], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[3], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[4], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[5], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[6], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[7], mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[8], and mblaze_Autonomous_Car_SoC_i/myip_Car_UltraSonic_0/inst/myip_Car_UltraSonic_v1_0_S00_AXI_inst/car_ultrasonic_soc_R/distance_cm_reg[9]
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 14 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 10682080 bits.
+Writing bitstream ./mblaze_Autonomous_Car_SoC_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+469 Infos, 21 Warnings, 1 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2389.516 ; gain = 409.336
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 12 16:47:16 2023...

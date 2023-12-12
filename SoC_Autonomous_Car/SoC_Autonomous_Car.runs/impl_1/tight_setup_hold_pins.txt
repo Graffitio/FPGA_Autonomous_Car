@@ -1,0 +1,11 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[26]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[22]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[18]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[14]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/cnt_reg[10]/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_R/clk_freqX100_reg/D|
+| clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |clk_out1_mblaze_Autonomous_Car_SoC_clk_wiz_0_0 |mblaze_Autonomous_Car_SoC_i/myip_Car_PWM_0/inst/myip_Car_PWM_v1_0_S00_AXI_inst/car_pwm_soc_L/clk_freqX100_reg/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
